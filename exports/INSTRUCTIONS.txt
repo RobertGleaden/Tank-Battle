@@ -1,0 +1,12 @@
+INSTRUCTIONS:
+
+Download the ZIP either through browser OR command line:
+wget http://darkenprojects.atspace.co.uk/downloads/Linux/TankBattle.zip
+Unzip the file
+cd <<Unzip Directory>>
+chmod +x runner
+run the command  "runner"
+
+These builds were testing with Ubuntu 13.04
+
+The game should now start! Please note I have not tested the builds on Linux! I just know they launch!

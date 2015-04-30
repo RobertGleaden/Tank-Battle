@@ -1,0 +1,16 @@
+if(gamepad_button_check(0,gp_padu));
+{
+    motion_set(90,4);
+}
+if(gamepad_button_check(0,gp_padd))
+{
+    motion_set(270,4);
+}
+if(gamepad_button_check(0,gp_padr))
+{
+    motion_set(0,4);
+}
+if(gamepad_button_check(0,gp_padl))
+{
+    motion_set(180,4);
+}
