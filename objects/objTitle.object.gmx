@@ -28,7 +28,11 @@
             <string>window_set_cursor(cr_default);
 if(room = rmTitle)
 {
-    audio_play_sound(sndWelcome,1,false)
+    if(global.playedWelcome = false)
+    {
+        audio_play_sound(sndWelcome,1,false)
+        global.playedWelcome = true;
+    }
     
     // Save Res
     ini_open("game_settings.ini");

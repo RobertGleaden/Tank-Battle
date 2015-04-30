@@ -39,7 +39,7 @@ credits += "vOICE: # jAMES mUSCROFT###"
 credits += "cREATED FOR# oNE GAME A MONTH MARCH 2014###"
 credits +="tHANKS FOR PLAYING TANK BATTLE";
  
-y = room_height - 128;
+y = room_height - 64;
 vspeed -=1;
 </string>
           </argument>

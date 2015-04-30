@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>room_speed = 30;
 
+friction = 1;
+
 if(!audio_is_playing(sndMusic1))
 {
     audio_play_music(sndMusic1,true);

@@ -29,6 +29,8 @@
 
 ini_open("game_settings.ini")
 
+global.playedWelcome = false;
+
 ResX = ini_read_real("Settings","ResX",640);
 ResY = ini_read_real("Settings","ResY",480);
 FullScreen = ini_read_real("Settings","Full Screen", 0);
